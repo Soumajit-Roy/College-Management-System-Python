@@ -23,7 +23,7 @@ class college:
         self.root.title('College Management System V.0')
 
 #Background Img Creation(Remeber To Change The Path as per your system)
-        bg_image=tk.PhotoImage(file = "/home/sam/Desktop/Coding/Project/clg_bg.gif")
+        bg_image=tk.PhotoImage(file = "home/sam/Coding/Github/College-Management-System-Python/clg_bg.gif")
         bg_label=Label(root,image=bg_image)
         bg_label.place(relx=0,rely=0)
         bg_label.image=bg_image
