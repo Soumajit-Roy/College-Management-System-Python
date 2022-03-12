@@ -23,7 +23,7 @@ class college:
         self.root.title('College Management System V.0')
 
 #Background Img Creation(Remeber To Change The Path as per your system)
-        bg_image=tk.PhotoImage(file = "home/sam/Coding/Github/College-Management-System-Python/clg_bg.gif")
+        bg_image=tk.PhotoImage(file = "clg_bg.gif")
         bg_label=Label(root,image=bg_image)
         bg_label.place(relx=0,rely=0)
         bg_label.image=bg_image
@@ -43,13 +43,13 @@ class college:
         En.place(x=470,y=200)
                 
         lbl_username=Label(text='Username',bg='#8FBC8F',fg='#000000',font=('Open Sans', 20, 'bold'),background='#e5fa7f')
-        lbl_username.place(x=390,y=300)
+        lbl_username.place(x=370,y=300)
             
         text_username=Entry(font=('Open Sans', 20, 'bold'),bd=2, relief=GROOVE,textvar=self.Username)
         text_username.place(x=570,y=300,width=350,height=45)
             
         lbl_password=Label(text='Password',bg='#e5fa7f',font=('Open Sans', 20, 'bold'))
-        lbl_password.place(x=390,y=400)
+        lbl_password.place(x=370,y=400)
             
         text_password=Entry(root, show ='*',textvar=self.Password)
         text_password.place(x=570,y=400,width=350,height=45)
@@ -61,7 +61,7 @@ class college:
         self.Registerbtn=Button(text='Register New Student',bg='#ffcb52',fg='Black',font=('Rockwell Condensed', 20, 'bold'),state=DISABLED,command=lambda :RegisterNewStudent())
         self.Registerbtn.place(x=100,y=600,width=500,height=50)
         
-        self.Displaybtn=Button(text='Display Student Information',bg='#ffcb52',fg='Black',font=('Rockwell Condensed', 20, 'bold'),state=DISABLED,command=lambda :DisplayStudentInformation())
+        self.Displaybtn=Button(text='Display Student Information',bg='#ffcb52',fg='Black',font=('Rockwell Condensed', 18, 'bold'),state=DISABLED,command=lambda :DisplayStudentInformation())
         self.Displaybtn.place(x=640,y=600,width=500,height=50)
 
 #Login System
