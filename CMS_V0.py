@@ -170,7 +170,7 @@ def RegisterNewStudent():
     text_dob.place(x=680,y=250,width=350,height=45)
        
     lbl_Contact=Label(Manage_Frame, text='Contact ',bg='#FFE194',fg='#000000',font=('times new roman', 20, 'bold'))
-    lbl_Contact.place(x=1040,y=250)
+    lbl_Contact.place(x=1030,y=250)
        
     text_Contact=Entry(Manage_Frame,font=('times new roman', 20, 'bold'),bd=2, relief=GROOVE,textvar=o)
     text_Contact.place(x=1150,y=250,width=350,height=45)
